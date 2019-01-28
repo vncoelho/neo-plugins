@@ -44,6 +44,7 @@ namespace SimplePolicy.UnitTests
 
             ClaimTransaction claimTxZero1 = GetClaimTransaction(0);
             claimTxZero1.Size.Should().Be(7 + 21); // 7 + 21 (random script)
+            claimTxZero1.Size.Should().Be(7 + 21); // 7 + 21 (random script)
             claimTxZero1.Hash.ToString().Should().Be("0x60037520be0fd903703c2b67973296f22cac8932db07a2723addf79478aea75f");
             ClaimTransaction claimTxZero2 = GetClaimTransaction(0);
             claimTxZero2.Size.Should().Be(7 + 21); // 7 + 21 (random script)
