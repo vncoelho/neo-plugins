@@ -1,5 +1,5 @@
 {
   "PluginConfiguration": {
-    "DisabledMethods": []
+    "MaxFee": 0.1
   }
 }
